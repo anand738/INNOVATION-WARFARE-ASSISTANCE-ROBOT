@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-net = cv2.dnn.readNetFromDarknet(r"C:\Anand Gupta\Drishti\Innovation\INOVATION FINAL\yolo-tiny-obj.cfg",r"C:\Anand Gupta\Drishti\Innovation\INOVATION FINAL\yolo-tiny-obj.weights")
+net = cv2.dnn.readNetFromDarknet(r"D:\Anand Gupta\Drishti\Innovation\INOVATION FINAL\yolo-tiny-obj.cfg",r"D:\Anand Gupta\Drishti\Innovation\INOVATION FINAL\yolo-tiny-obj.weights")
 
 classes = ['Drons','jet', 'tank','military vehicle','military bases','Pistol','Guns','Knife','Grenade','Army']
 
